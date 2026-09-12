@@ -291,6 +291,85 @@
             //Console.WriteLine(address2.City);
             //Console.WriteLine(address0.City);
             #endregion
+            #region Part 2 - Question 6
+            //DeliveryCenter center = new DeliveryCenter();
+
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    Console.WriteLine("Enter Shipment " + (i + 1));
+
+            //    Console.Write("Tracking Code: ");
+            //    string trackingCode = Console.ReadLine();
+
+            //    Console.Write("Description: ");
+            //    string description = Console.ReadLine();
+
+            //    Console.Write("Weight: ");
+            //    double weight = double.Parse(Console.ReadLine());
+
+            //    Console.Write("Delivery Fee: ");
+            //    decimal deliveryFee = decimal.Parse(Console.ReadLine());
+
+            //    Console.Write("City: ");
+            //    string city = Console.ReadLine();
+
+            //    Console.Write("Street: ");
+            //    string street = Console.ReadLine();
+
+            //    Console.Write("Building Number: ");
+            //    int buildingNumber = int.Parse(Console.ReadLine());
+
+            //    DeliveryAddress address =
+            //        new DeliveryAddress(city, street, buildingNumber);
+
+            //    Shipment shipment =
+            //        new Shipment(
+            //            trackingCode,
+            //            description,
+            //            weight,
+            //            deliveryFee,
+            //            address);
+
+            //    center.AddShipment(shipment);
+
+            //    Console.WriteLine();
+            //}
+
+            //Console.WriteLine("three Shipments:");
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    center[i].PrintShipment();
+
+            //    Console.WriteLine();
+            //}
+
+
+            //Console.Write("Enter Tracking Code: ");
+            //string searchCode = Console.ReadLine();
+
+            //Shipment foundShipment = center[searchCode];
+
+            //if (!string.IsNullOrEmpty(foundShipment.TrackingCode))
+            //{
+            //    Console.WriteLine(
+            //        "Shipment found: " +
+            //        foundShipment.TrackingCode +
+            //        " - " +
+            //        foundShipment.Description);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Shipment not found.");
+            //}
+
+            //DeliveryAddress originalAddress =new DeliveryAddress("Cairo", "Tahrir Street", 15);
+            //DeliveryAddress copiedAddress = originalAddress;
+            //copiedAddress.Street = "Hai elgam3aa";
+            //copiedAddress.BuildingNumber = 20;
+            //Console.WriteLine("Struct Copy");
+            //Console.WriteLine($"Original Address: { originalAddress.GetFullAddress()}");
+            //Console.WriteLine($"Copied Address: {copiedAddress.GetFullAddress()}");
+            #endregion
         }
     }
 }
