@@ -51,6 +51,26 @@
 
     //}
     #endregion
+    #region Part2 1. DeliveryAddress struct
+    //public struct DeliveryAddress
+    //{
+    //    public string City;
+    //    public string Street;
+    //    public int BuildingNumber;
+
+    //    public DeliveryAddress(string city, string street, int buildingNumber)
+    //    {
+    //        City = city;
+    //        Street = street;
+    //        BuildingNumber = buildingNumber;
+    //    }
+
+    //    public string GetFullAddress()
+    //    {
+    //        return $"BuildingNumber: {BuildingNumber} Street: {Street} City: { City}";
+    //    }
+    //}
+    #endregion
     internal class Program
     {
         static void Main(string[] args)
@@ -75,6 +95,14 @@
 
             //Console.WriteLine(customer1.name);
             ////class is a reference type,So both customer references refers to the same object
+            #endregion
+            #region Part2 1. DeliveryAddress struct
+            //DeliveryAddress address0 = new DeliveryAddress();
+            //address0.City = "mansoura";
+            //DeliveryAddress address2 = address0;
+            //address2.City = "cairo";
+            //Console.WriteLine(address2.City);
+            //Console.WriteLine(address0.City);
             #endregion
         }
     }
