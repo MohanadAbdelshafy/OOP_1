@@ -11,6 +11,46 @@
     //    public string name;
     //}
     #endregion
+    #region Question 2
+    ////A)1. All the feilds are public,So any code outside the struct can have a direct access and change the values
+    ////2. No validation (User can give negative values)
+    ////3. can deal with the feilds through properties
+
+    ////B)
+    //public struct Shipment
+    //{
+    //    private string description;
+    //    private double weight;
+    //    private decimal deliveryFee;
+
+    //    public string Description
+    //    {
+    //        get { return description; }
+    //        set { description = value; }
+    //    }
+    //    public double Weight { 
+    //    get { return weight; }
+    //        set 
+    //        {
+    //            {
+    //                if (value >= 0)
+    //                    weight = value;
+    //            }
+    //        }
+    //    }
+    //    public decimal DeliveryFee
+    //    {
+    //        get { return deliveryFee; }
+    //        set
+    //        {
+    //            if (value >= 0)
+    //                deliveryFee = value;
+    //        }
+    //    }
+    //    //the feilds became private no one can access it from outside,Can deal with feild through property
+
+    //}
+    #endregion
     internal class Program
     {
         static void Main(string[] args)
